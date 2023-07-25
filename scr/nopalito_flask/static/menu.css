@@ -1,0 +1,85 @@
+
+@font-face {
+    font-family: 'BarrioRegular'; /* The name you want to use for your font */
+    src: url('../static/fonts/Barrio-Regular.ttf') format('truetype');
+    
+         
+    /* Add any additional font properties if needed */
+  }
+
+  @font-face {
+    font-family: 'BarlowLight';
+    src: url('..static/images/fonts/Barlow-Light.tff') format('truetype');
+  
+  }
+
+
+.starters{
+    width: 100%;
+    text-align: center;
+    font-family: 'BarrioRegular';
+    color: #2E294E;
+    font-size: 2em;
+
+}
+
+.b {
+    /* background-image: url('images/website_background.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);  */
+        
+        background-color: #27A3A5;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .gallery-item {
+    margin: 20px;
+    border-radius: 4px;
+    background-color: #C3D8BF;
+    border-left: 5px solid #2E294E;
+    border-top: 5px solid #2E294E;
+    width: 240px;
+    font-family: 'BarlowLight';
+    text-align: center;
+    color: #2E294E;
+    padding: 1% 1.5%;
+  }
+
+  .menu-item {
+    margin: 20px;
+    border-radius: 4px;
+    background-color: #C3D8BF;
+    border-left: 5px solid #2E294E;
+    border-top: 5px solid #2E294E;
+    width: 400px;
+    font-family: 'BarlowLight';
+    text-align: center;
+    color: #2E294E;
+    padding: 1% 1.5%;
+    font-family: Tahoma;
+  }
+
+  .gallery-item .thumbnail {
+    width: 240px;
+    border-radius: 4px;
+  }
+  
+  .price{
+    text-align: right;
+  }
+
+  
+
+  @media only screen and (min-width: 320px) and (max-width: 480px){
+    .gallery-item .thumbnail {
+      width: 95%;
+    }
+  }
+  
